@@ -27,8 +27,10 @@ ENTRYPOINT ["java", "-jar", "mi_app.jar"]
 # debo logearme primero
 # docker login -u usuario
 # se etiqueta la imagen y luego hacemos el push
+# sudo docker build -t nombre-imagen .
 # sudo docker tag nombre_imagen_local id_usuario/nombre_a_subir
 # sudo docker push id_usuario/nombre_a_subir
 # Ejemplo:
+# sudo docker build -t docker-springboot .
 # sudo docker tag docker-springboot vacax/docker-springboot
 # sudo docker push vacax/docker-springboot
