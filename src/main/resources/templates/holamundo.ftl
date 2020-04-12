@@ -5,6 +5,6 @@
     <title>Docker y Spring Boot</title>
 </head>
 <body>
-    Hola Mundo desde Docker
+    Hola Mundo desde Docker - corriendo en el puerto:${puerto} - maquina: ${hostname}
 </body>
 </html>
